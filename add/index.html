@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ 	<meta charset="utf-8">
+ 	<meta http-equiv="Content-Type" content="text/html;">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Campground Host Management Tools - Add to your site</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write(unescape('%3Cscript src="/jquery/jquery.min.js"%3E%3C/script%3E'))</script>
+	<link rel="shortcut icon" href="../img/home/leaf-32.png" />
+
+	<link href="../../core/elements/styles/base.css" rel="stylesheet" type="text/css" >
+
+	<link href="../css/camphosts.css" rel="stylesheet" type="text/css" >
+
+	<style type='text/css'>
+		.fullbackground:hover{
+		    height:550px;
+		}
+
+		#crossfade {
+		    position:relative;
+		}
+		#crossfade img {
+		    
+		    left:0;
+		    opacity: 1;
+		    -webkit-transition: opacity 1s ease-in-out;
+		    -moz-transition: opacity 1s ease-in-out;
+		    -o-transition: opacity 1s ease-in-out;
+		    -ms-transition: opacity 1s ease-in-out;    
+		    transition: opacity 1s ease-in-out;
+		}
+		#crossfade img.top {
+		 position:absolute;
+		}
+		#crossfade img.top:hover {
+		    opacity:0;
+		}
+
+	</style>
+	<script>
+		$(document).ready(function () {
+			setTimeout(function(){
+				// No effect
+				//$('form').next().hide();
+				//$("form").css("display","none");
+			});
+		}, 5000)
+	</script>
+</head>
+
+<body style="margin:0px">
+
+<div class="header-navigation">
+  <header class="" style="padding-top:10px;overflow:hidden">
+	
+	<div class="container">
+
+		<div style="margin-left:60px;min-height:12px">
+        
+    </div>
+		<div style="font-size:28px; padding:10px 0 30px 0; float:left">
+			<img src="../img/home/leaf-32.png" style="width:24px;margin-right:1px" /><a href="/camphosts" style="color:#555">Component<span style="color:#1f651e">Core</span></a>
+  		</div>
+		
+	    <nav style="padding-top:15px; float:right">
+		     Campground Host Management Tools
+	    </nav>
+
+	</div>
+  </header>
+</div>
+
+<div id="crossfade" style="overflow:hidden; height:100px">
+	<img class="topX" src="../img/home/camphost-short.jpg" style="width:100%;max-width:2000px" />
+</div>
+<br>
+
+<div class="container">
+
+	<div class="cognito">
+	<script src="https://services.cognitoforms.com/s/2C0ju55a_kmTkB_Siw-K5w"></script>
+	<script>Cognito.load("forms", { id: "1" });</script>
+	</div>
+</div>
+
+<div id="footer-navigation" style="clear:both">
+	<div style="float:left; color:#fff; margin:80px 30px 10px 15px">
+	<p></p>
+	</div>
+
+	<div style="float:right; color:#fff; margin:80px 30px 10px 15px">
+	<p>&copy; 2017 ParkTools by Don Adams</p>
+	</div>
+</div>
+
+ 
+</body>
+</html>
